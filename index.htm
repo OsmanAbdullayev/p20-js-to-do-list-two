@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./assets/owlcarousel/owl.carousel.min.css" />
+		<link
+			rel="stylesheet"
+			href="./assets/owlcarousel/owl.theme.default.min.css"
+		/>
+		<link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="./assets/sass/style.css" />
+		<link
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+			rel="stylesheet"
+		/>
+		<title>HOME</title>
+	</head>
+
+	<body>
+		<!-- webpage start ====================================================================-->
+		<header>
+			<h1>Osman's Todo list</h1>
+		 </header>
+    <form>
+      <input type="text" class="todo-input" />
+      <button class="todo-button" type="submit">
+        <i class="fas fa-plus-square"></i>
+      </button>
+			<div class="select">
+				<select name="todos" class="filter-todo">
+					<option value="all">All</option>
+					<option value="completed">Completed</option>
+					<option value="uncompleted">Uncompleted</option>
+				</select>
+			</div>
+		</form>
+		<div class="todo-container">
+      <ul class="todo-list"></ul>
+    </div>
+
+		<!-- webpage end ======================================================================-->
+		<script src="./assets/jquery/jquery.js"></script>
+		<script src="./assets/owlcarousel/owl.carousel.min.js"></script>
+		<script src="./assets/owlcarousel/script.js"></script>
+		<script src="./assets/bootstrap/js/bootstrap.min.js"></script>
+		<script src="./assets/js/script.js"></script>
+	</body>
+</html>
