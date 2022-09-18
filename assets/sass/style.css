@@ -33,8 +33,9 @@ form button {
 }
 
 .todo-input {
+  margin-left: 1rem;
   max-width: 15rem;
-  min-width: 3rem;
+  min-width: 1rem;
 }
 
 form button {
@@ -126,7 +127,7 @@ select {
   color: salmon;
   width: 10rem;
   cursor: pointer;
-  padding: 1rem;
+  padding: 1.2rem;
 }
 
 .select::after {
@@ -136,7 +137,7 @@ select {
   color: white;
   top: 0;
   right: 0;
-  padding: 1rem;
+  padding: 1.2rem 0.2rem;
   pointer-events: none;
   transform: all 0.3s eas;
 }
