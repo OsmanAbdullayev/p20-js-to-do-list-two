@@ -110,7 +110,8 @@ function removeLocalTodos(todo) {
 		todos = JSON.parse(localStorage.getItem("todos"));
 	}
     const todoIndex = todo.children[0].innerText;
-    todos.splice(todos.indexOf(todoIndex), 1);
+	let indexSearch = todos.indexOf(todoIndex);
+    todos.splice(indexSearch, 1);
     localStorage.setItem("todos", JSON.stringify(todos));
 }
 
